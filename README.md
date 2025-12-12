@@ -1,6 +1,7 @@
 # Hey there, I'm Chirag (Chiruu12) 👋
 
-I'm a fourth-year student at BITS Pilani - Goa Campus, juggling dual majors in Mathematics and Electronics & Instrumentation. I'm passionate about Data Science, Machine Learning, and automating solutions with AI.
+I'm a final-year student at BITS Pilani - Goa Campus, GSoC'25 @ Jenkins and juggling dual majors in Mathematics and Electronics & Instrumentation. 
+I'm passionate about Data Science, Machine Learning, and automating solutions with AI.
 
 ---
 
@@ -35,12 +36,6 @@ NLP | Automation Tools (RETELL, Make.com, Deepgram, Voiceflow)
 ## 🚀 Projects I’m Proud Of
 - **NexNet:**  
   A self-built analytical framework using NumPy to simplify deep learning model development across diverse datasets.
-  
-- **VERI-Bot:**  
-  An AI-powered chatbot that integrates research papers, PDFs, and YouTube data for smart, context-aware responses.
-  
-- **Amazon OCR Project:**  
-  A scalable text extraction pipeline using EasyOCR and BERT, designed to process large image datasets efficiently.
 
 ---
 
