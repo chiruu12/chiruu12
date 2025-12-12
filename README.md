@@ -57,8 +57,6 @@ A mini deep learning framework built from scratch with NumPy. Designed to simpli
 
 ![Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=chiruu12&show_icons=true&theme=blue-green)
 
-![Streak](https://streak-stats.demolab.com/?user=chiruu12&theme=blue-green)
-
 ![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=chiruu12&layout=compact&theme=blue-green)
 
 ---
