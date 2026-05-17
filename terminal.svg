@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="528" viewBox="0 0 680 528">
+<defs>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="2" fill="#0a0a0a"/>
+    <rect y="2" width="4" height="2" fill="rgba(255,255,255,0.015)"/>
+  </pattern>
+</defs>
+<style>
+  text { font-family: ui-monospace, 'Cascadia Code', 'SF Mono', 'Fira Code', Consolas, monospace; font-size: 13px; }
+  .line { opacity: 0; animation: appear 0.01s forwards; }
+  @keyframes appear { to { opacity: 1; } }
+  @keyframes blink { 0%,50% { opacity:1 } 51%,100% { opacity:0 } }
+  .cursor { animation: blink 1s step-end infinite; }
+  @keyframes glow {
+    0%, 100% { filter: drop-shadow(0 0 2px rgba(181,232,83,0.3)); }
+    50% { filter: drop-shadow(0 0 6px rgba(181,232,83,0.6)); }
+  }
+  .terminal-text { animation: glow 4s ease-in-out infinite; }
+</style>
+<rect width="680" height="528" rx="8" fill="#0a0a0a"/>
+<rect width="680" height="36" rx="8" fill="#1a1a1a"/>
+<rect y="28" width="680" height="8" fill="#1a1a1a"/>
+<circle cx="16" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="34" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="52" cy="18" r="6" fill="#27c93f"/>
+<text x="340" y="22" text-anchor="middle" fill="#484f58" font-size="12">chiruu12 — zsh</text>
+<g class="terminal-text">
+  <g class="line" style="animation-delay: 0.50s">
+    <text x="20" y="72" fill="#7ee787">$ </text>
+    <text x="35.6" y="72" fill="#e6edf3">whoami</text>
+  </g>
+  <g class="line" style="animation-delay: 0.80s">
+    <text x="20" y="92" fill="#c9d1d9">Chirag Gupta</text>
+  </g>
+  <g class="line" style="animation-delay: 0.95s">
+    <text x="20" y="112" fill="#4a7c59">AI engineer. building agent infrastructure. breaking things in production so you don't have to.</text>
+  </g>
+  <g class="line" style="animation-delay: 1.10s">
+    <text x="20" y="132" fill="#484f58">AI Engineer @ US startup | GSoC '25 contributor, '26 mentor @ Jenkins | BITS Pilani</text>
+  </g>
+  <g class="line" style="animation-delay: 1.30s">
+  </g>
+  <g class="line" style="animation-delay: 1.34s">
+    <text x="20" y="172" fill="#7ee787">$ </text>
+    <text x="35.6" y="172" fill="#e6edf3">cat links.txt</text>
+  </g>
+  <g class="line" style="animation-delay: 1.64s">
+    <text x="20" y="192" fill="#58a6ff">site</text>
+    <text x="51.2" y="192" fill="#484f58"> | </text>
+    <text x="74.6" y="192" fill="#58a6ff">resume</text>
+    <text x="121.39999999999999" y="192" fill="#484f58"> | </text>
+    <text x="144.79999999999998" y="192" fill="#58a6ff">blog</text>
+    <text x="175.99999999999997" y="192" fill="#484f58"> | </text>
+    <text x="199.39999999999998" y="192" fill="#58a6ff">linkedin</text>
+  </g>
+  <g class="line" style="animation-delay: 1.94s">
+  </g>
+  <g class="line" style="animation-delay: 1.98s">
+    <text x="20" y="232" fill="#7ee787">$ </text>
+    <text x="35.6" y="232" fill="#e6edf3">ls shipped/</text>
+  </g>
+  <g class="line" style="animation-delay: 2.28s">
+    <text x="20" y="252" fill="#b5e853">  </text>
+    <text x="35.6" y="252" fill="#c9d1d9">OSS-Skills        </text>
+    <text x="176.0" y="252" fill="#4a7c59">15 AI coding skills for OSS contributors</text>
+    <text x="488.0" y="252" fill="#ffd700">  ★ 46</text>
+  </g>
+  <g class="line" style="animation-delay: 2.36s">
+    <text x="20" y="272" fill="#b5e853">  </text>
+    <text x="35.6" y="272" fill="#c9d1d9">Mutter            </text>
+    <text x="176.0" y="272" fill="#4a7c59">voice assistant. hotkey, talk, captured. all local</text>
+  </g>
+  <g class="line" style="animation-delay: 2.44s">
+    <text x="20" y="292" fill="#b5e853">  </text>
+    <text x="35.6" y="292" fill="#c9d1d9">DevCard           </text>
+    <text x="176.0" y="292" fill="#4a7c59">dev identity cards from GitHub. on PyPI</text>
+    <text x="480.2" y="292" fill="#ffd700">  ★ 4</text>
+  </g>
+  <g class="line" style="animation-delay: 2.52s">
+    <text x="20" y="312" fill="#b5e853">  </text>
+    <text x="35.6" y="312" fill="#c9d1d9">NexNet            </text>
+    <text x="176.0" y="312" fill="#4a7c59">neural nets from scratch in NumPy. BERT, GPT</text>
+    <text x="519.2" y="312" fill="#ffd700">  ★ 1</text>
+  </g>
+  <g class="line" style="animation-delay: 2.60s">
+    <text x="20" y="332" fill="#b5e853">  </text>
+    <text x="35.6" y="332" fill="#c9d1d9">GSoC @ Jenkins    </text>
+    <text x="176.0" y="332" fill="#4a7c59">multi-agent diagnostics for build failures</text>
+    <text x="503.59999999999997" y="332" fill="#ffd700">  ★ 9</text>
+  </g>
+  <g class="line" style="animation-delay: 2.68s">
+  </g>
+  <g class="line" style="animation-delay: 2.72s">
+    <text x="20" y="372" fill="#7ee787">$ </text>
+    <text x="35.6" y="372" fill="#e6edf3">ls building/</text>
+  </g>
+  <g class="line" style="animation-delay: 3.02s">
+    <text x="20" y="392" fill="#b5e853">  </text>
+    <text x="35.6" y="392" fill="#c9d1d9">Hive              </text>
+    <text x="176.0" y="392" fill="#4a7c59">local-first agent OS. YAML agents, multi-model routing</text>
+  </g>
+  <g class="line" style="animation-delay: 3.10s">
+    <text x="20" y="412" fill="#b5e853">  </text>
+    <text x="35.6" y="412" fill="#c9d1d9">Unplug            </text>
+    <text x="176.0" y="412" fill="#4a7c59">LLM defense SDK. injection, jailbreak, leakage</text>
+  </g>
+  <g class="line" style="animation-delay: 3.18s">
+  </g>
+  <g class="line" style="animation-delay: 3.22s">
+    <text x="20" y="452" fill="#7ee787">$ </text>
+    <text x="35.6" y="452" fill="#e6edf3">git log --oneline upstream/</text>
+  </g>
+  <g class="line" style="animation-delay: 3.52s">
+    <text x="20" y="472" fill="#4a7c59">  merged -&gt; </text>
+    <text x="113.6" y="472" fill="#58a6ff">Keras</text>
+    <text x="152.6" y="472" fill="#484f58"> · </text>
+    <text x="176.0" y="472" fill="#58a6ff">Agno</text>
+    <text x="207.2" y="472" fill="#484f58"> · </text>
+    <text x="230.6" y="472" fill="#58a6ff">Rago</text>
+  </g>
+  <g class="line" style="animation-delay: 3.82s">
+  </g>
+  <g class="line" style="animation-delay: 3.86s">
+    <text x="20" y="512" fill="#7ee787" class="cursor">$ </text>
+    <text x="35.6" y="512" fill="#b5e853" class="cursor">█</text>
+  </g>
+</g>
+<rect width="680" height="528" rx="8" fill="url(#scanlines)" opacity="0.4"/>
+<rect width="680" height="528" rx="8" fill="transparent" stroke="rgba(0,0,0,0.5)" stroke-width="40" stroke-dasharray="0" opacity="0.1"/>
+</svg>

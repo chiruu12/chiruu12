@@ -1,0 +1,43 @@
+name: Chirag Gupta
+handle: chiruu12
+tagline: "AI engineer. building agent infrastructure. breaking things in production so you don't have to."
+role: "AI Engineer @ US startup | GSoC '25 contributor, '26 mentor @ Jenkins | BITS Pilani"
+
+links:
+  site: https://chiruu12.github.io
+  resume: https://chiruu12.github.io/resume.pdf
+  blog: https://chiruu12.github.io/blog/
+  linkedin: https://linkedin.com/in/chiruu12
+
+shipped:
+  - repo: chiruu12/OSS-Skills
+    name: OSS-Skills
+    desc: "15 AI coding skills for OSS contributors"
+  - repo: chiruu12/Mutter
+    name: Mutter
+    desc: "voice assistant. hotkey, talk, captured. all local"
+  - repo: chiruu12/devcard
+    name: DevCard
+    desc: "dev identity cards from GitHub. on PyPI"
+  - repo: chiruu12/NexNet
+    name: NexNet
+    desc: "neural nets from scratch in NumPy. BERT, GPT"
+  - repo: jenkinsci/domain-llm
+    name: "GSoC @ Jenkins"
+    desc: "multi-agent diagnostics for build failures"
+
+building:
+  - repo: chiruu12/Hive
+    name: Hive
+    desc: "local-first agent OS. YAML agents, multi-model routing"
+  - repo: chiruu12/Unplug
+    name: Unplug
+    desc: "LLM defense SDK. injection, jailbreak, leakage"
+
+upstream:
+  - name: Keras
+    url: https://github.com/keras-team/keras/pulls?q=author%3Achiruu12
+  - name: Agno
+    url: https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12
+  - name: Rago
+    url: https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12
