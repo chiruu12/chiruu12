@@ -29,13 +29,13 @@ COLORS = {
 }
 
 FONT = "ui-monospace, 'Cascadia Code', 'SF Mono', 'Fira Code', Consolas, monospace"
-LINE_HEIGHT = 20
+LINE_HEIGHT = 22
 FONT_SIZE = 13
 CHAR_WIDTH = 7.8
 PADDING_X = 20
 PADDING_Y = 16
 TITLE_BAR_H = 36
-WIDTH = 680
+WIDTH = 800
 
 
 def fetch_stars(repo: str) -> int:
@@ -116,14 +116,16 @@ def build_svg(config: dict) -> str:
 
     for proj in config["shipped"]:
         stars = fetch_stars(proj["repo"])
-        star_str = f"  ★ {stars}" if stars > 0 else ""
+        star_str = f"★ {stars}" if stars > 0 else ""
         name_padded = proj["name"].ljust(18)
-        add_line([
+        parts = [
             ("  ", COLORS["fg"]),
             (name_padded, COLORS["white"]),
             (proj["desc"], COLORS["dim"]),
-            (star_str, COLORS["yellow"]),
-        ])
+        ]
+        if star_str:
+            parts.append(("__STAR__" + star_str, COLORS["yellow"]))
+        add_line(parts)
 
     add_blank()
 
@@ -186,11 +188,6 @@ def build_svg(config: dict) -> str:
         f"  @keyframes appear {{ to {{ opacity: 1; }} }}",
         f"  @keyframes blink {{ 0%,50% {{ opacity:1 }} 51%,100% {{ opacity:0 }} }}",
         "  .cursor { animation: blink 1s step-end infinite; }",
-        "  @keyframes glow {",
-        "    0%, 100% { filter: drop-shadow(0 0 2px rgba(181,232,83,0.3)); }",
-        "    50% { filter: drop-shadow(0 0 6px rgba(181,232,83,0.6)); }",
-        "  }",
-        "  .terminal-text { animation: glow 4s ease-in-out infinite; }",
         "</style>",
 
         # background
@@ -204,7 +201,7 @@ def build_svg(config: dict) -> str:
         f'<circle cx="52" cy="18" r="6" fill="{COLORS["bar_dot_green"]}"/>',
         f'<text x="{WIDTH // 2}" y="22" text-anchor="middle" fill="{COLORS["grey"]}" font-size="12">chiruu12 — zsh</text>',
 
-        '<g class="terminal-text">',
+        '<g>',
     ]
 
     for i, line_data in enumerate(lines):
@@ -222,20 +219,25 @@ def build_svg(config: dict) -> str:
         for text, color in line_data["parts"]:
             if not text:
                 continue
-            escaped = escape(text)
-            svg_parts.append(
-                f'    <text x="{x}" y="{y}" fill="{color}"{cursor_class}>{escaped}</text>'
-            )
-            x += len(text) * CHAR_WIDTH
+            if text.startswith("__STAR__"):
+                star_text = text[8:]
+                escaped = escape(star_text)
+                svg_parts.append(
+                    f'    <text x="{WIDTH - PADDING_X}" y="{y}" fill="{color}" text-anchor="end">{escaped}</text>'
+                )
+            else:
+                escaped = escape(text)
+                svg_parts.append(
+                    f'    <text x="{x}" y="{y}" fill="{color}"{cursor_class}>{escaped}</text>'
+                )
+                x += len(text) * CHAR_WIDTH
 
         svg_parts.append("  </g>")
 
     svg_parts.extend([
         "</g>",
-        # scanline overlay
-        f'<rect width="{WIDTH}" height="{total_h}" rx="8" fill="url(#scanlines)" opacity="0.4"/>',
-        # subtle vignette
-        f'<rect width="{WIDTH}" height="{total_h}" rx="8" fill="transparent" stroke="rgba(0,0,0,0.5)" stroke-width="40" stroke-dasharray="0" opacity="0.1"/>',
+        # scanline overlay (subtle)
+        f'<rect width="{WIDTH}" height="{total_h}" rx="8" fill="url(#scanlines)" opacity="0.2"/>',
         "</svg>",
     ])
 
