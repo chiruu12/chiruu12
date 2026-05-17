@@ -16,19 +16,39 @@
 
 ---
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<details>
+<summary><kbd>$ cat about.txt</kbd></summary>
+<br>
+
+AI engineer at a US startup building a multi-agent ideation platform (group chat orchestration, containerized code execution, skills system, model tiering). GSoC '25 contributor and '26 mentor at Jenkins. Final year at BITS Pilani doing a dual degree in Mathematics and Electronics.
+
+Outside work: building [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://github.com/chiruu12/Unplug) (LLM defense), and [Mutter](https://github.com/chiruu12/Mutter) (voice assistant). All local-first infrastructure. Contributing upstream to [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), and [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
+
+</details>
+
+<details>
+<summary><kbd>$ cat stack.txt</kbd></summary>
+<br>
+
 ```
-$ cat about.txt
+languages   python, c/c++, sql
+ml/ai       pytorch, langchain, vllm, ray, hugging face, mlflow
+infra       docker, git, fastapi, pydantic, mcp, grpc
+patterns    multi-agent orchestration, RAG, MCP servers, CLI tools
 ```
 
-AI engineer at a US startup building a multi-agent ideation platform (group chat orchestration,
-containerized code execution, skills system, model tiering). GSoC '25 contributor and '26 mentor
-at Jenkins. Final year at BITS Pilani (Math + Electronics).
+</details>
 
-Building [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://github.com/chiruu12/Unplug) (LLM defense), [Mutter](https://github.com/chiruu12/Mutter) (voice assistant). Contributing to [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
+</td>
+<td width="50%" valign="top">
 
-```
-$ cat currently.txt
-```
+<details>
+<summary><kbd>$ cat currently.txt</kbd></summary>
+<br>
 
 ```diff
 + Hive       shipping the agent OS runtime
@@ -37,22 +57,20 @@ $ cat currently.txt
 + OSS        weekly contributions to Agno, Keras, and others
 ```
 
-```
-$ cat stack.txt
-```
+</details>
 
-```
-languages   python · c/c++ · sql
-ml/ai       pytorch · langchain · vllm · ray · hugging face · mlflow
-infra       docker · git · fastapi · pydantic · mcp · grpc
-```
-
-```
-$ cat achievements.txt
-```
+<details>
+<summary><kbd>$ cat achievements.txt</kbd></summary>
+<br>
 
 ```
 4th     ContextCon (YC Hackathon)
 1st     Smart India Hackathon 2025
-top 20  Meta Hacker Cup AI round (13,000+ participants)
+top 20  Meta Hacker Cup AI round (13k+ participants)
 ```
+
+</details>
+
+</td>
+</tr>
+</table>
