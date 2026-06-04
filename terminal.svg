@@ -62,42 +62,42 @@
   </g>
   <g class="line" style="animation-delay: 2.36s">
     <text x="20" y="294" fill="#b5e853">  </text>
-    <text x="35.6" y="294" fill="#c9d1d9">Mutter            </text>
-    <text x="176.0" y="294" fill="#4a7c59">voice assistant. hotkey, talk, captured. all local</text>
+    <text x="35.6" y="294" fill="#c9d1d9">DevCard           </text>
+    <text x="176.0" y="294" fill="#4a7c59">dev identity cards from GitHub. on PyPI</text>
+    <text x="780" y="294" fill="#ffd700" text-anchor="end">★ 4</text>
   </g>
   <g class="line" style="animation-delay: 2.44s">
     <text x="20" y="316" fill="#b5e853">  </text>
-    <text x="35.6" y="316" fill="#c9d1d9">DevCard           </text>
-    <text x="176.0" y="316" fill="#4a7c59">dev identity cards from GitHub. on PyPI</text>
-    <text x="780" y="316" fill="#ffd700" text-anchor="end">★ 4</text>
+    <text x="35.6" y="316" fill="#c9d1d9">NexNet            </text>
+    <text x="176.0" y="316" fill="#4a7c59">neural nets from scratch in NumPy. BERT, GPT</text>
+    <text x="780" y="316" fill="#ffd700" text-anchor="end">★ 1</text>
   </g>
   <g class="line" style="animation-delay: 2.52s">
     <text x="20" y="338" fill="#b5e853">  </text>
-    <text x="35.6" y="338" fill="#c9d1d9">NexNet            </text>
-    <text x="176.0" y="338" fill="#4a7c59">neural nets from scratch in NumPy. BERT, GPT</text>
-    <text x="780" y="338" fill="#ffd700" text-anchor="end">★ 1</text>
+    <text x="35.6" y="338" fill="#c9d1d9">GSoC @ Jenkins    </text>
+    <text x="176.0" y="338" fill="#4a7c59">multi-agent diagnostics for build failures</text>
+    <text x="780" y="338" fill="#ffd700" text-anchor="end">★ 9</text>
   </g>
   <g class="line" style="animation-delay: 2.60s">
-    <text x="20" y="360" fill="#b5e853">  </text>
-    <text x="35.6" y="360" fill="#c9d1d9">GSoC @ Jenkins    </text>
-    <text x="176.0" y="360" fill="#4a7c59">multi-agent diagnostics for build failures</text>
-    <text x="780" y="360" fill="#ffd700" text-anchor="end">★ 9</text>
   </g>
-  <g class="line" style="animation-delay: 2.68s">
+  <g class="line" style="animation-delay: 2.64s">
+    <text x="20" y="382" fill="#7ee787">$ </text>
+    <text x="35.6" y="382" fill="#e6edf3">ls building/</text>
   </g>
-  <g class="line" style="animation-delay: 2.72s">
-    <text x="20" y="404" fill="#7ee787">$ </text>
-    <text x="35.6" y="404" fill="#e6edf3">ls building/</text>
+  <g class="line" style="animation-delay: 2.94s">
+    <text x="20" y="404" fill="#b5e853">  </text>
+    <text x="35.6" y="404" fill="#c9d1d9">Hive              </text>
+    <text x="176.0" y="404" fill="#4a7c59">local-first agent OS. YAML agents, multi-model routing</text>
   </g>
   <g class="line" style="animation-delay: 3.02s">
     <text x="20" y="426" fill="#b5e853">  </text>
-    <text x="35.6" y="426" fill="#c9d1d9">Hive              </text>
-    <text x="176.0" y="426" fill="#4a7c59">local-first agent OS. YAML agents, multi-model routing</text>
+    <text x="35.6" y="426" fill="#c9d1d9">Unplug            </text>
+    <text x="176.0" y="426" fill="#4a7c59">LLM defense SDK. injection, jailbreak, leakage</text>
   </g>
   <g class="line" style="animation-delay: 3.10s">
     <text x="20" y="448" fill="#b5e853">  </text>
-    <text x="35.6" y="448" fill="#c9d1d9">Unplug            </text>
-    <text x="176.0" y="448" fill="#4a7c59">LLM defense SDK. injection, jailbreak, leakage</text>
+    <text x="35.6" y="448" fill="#c9d1d9">Nudge             </text>
+    <text x="176.0" y="448" fill="#4a7c59">voice capture. talk, captured, delivered. nudge-ai.org</text>
   </g>
   <g class="line" style="animation-delay: 3.18s">
   </g>

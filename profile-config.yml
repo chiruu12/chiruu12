@@ -13,9 +13,6 @@ shipped:
   - repo: chiruu12/OSS-Skills
     name: OSS-Skills
     desc: "15 AI coding skills for OSS contributors"
-  - repo: chiruu12/Mutter
-    name: Mutter
-    desc: "voice assistant. hotkey, talk, captured. all local"
   - repo: chiruu12/devcard
     name: DevCard
     desc: "dev identity cards from GitHub. on PyPI"
@@ -33,6 +30,9 @@ building:
   - repo: chiruu12/Unplug
     name: Unplug
     desc: "LLM defense SDK. injection, jailbreak, leakage"
+  - repo: chiruu12/nudge-server
+    name: Nudge
+    desc: "voice capture. talk, captured, delivered. nudge-ai.org"
 
 upstream:
   - name: Keras

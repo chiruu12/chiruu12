@@ -10,6 +10,8 @@
   <a href="https://chiruu12.github.io"><kbd>site</kbd></a>&nbsp;
   <a href="https://chiruu12.github.io/resume.pdf"><kbd>resume</kbd></a>&nbsp;
   <a href="https://chiruu12.github.io/blog/"><kbd>blog</kbd></a>&nbsp;
+  <a href="https://www.unplug-ai.org/"><kbd>unplug</kbd></a>&nbsp;
+  <a href="https://www.nudge-ai.org/"><kbd>nudge</kbd></a>&nbsp;
   <a href="https://linkedin.com/in/chiruu12"><kbd>linkedin</kbd></a>&nbsp;
   <a href="mailto:chirag.gupta.290403@gmail.com"><kbd>email</kbd></a>
 </p>
@@ -22,7 +24,7 @@
 
 AI engineer at a US startup building a multi-agent ideation platform (group chat orchestration, containerized code execution, skills system, model tiering). GSoC '25 contributor and '26 mentor at Jenkins. Final year at BITS Pilani doing a dual degree in Mathematics and Electronics.
 
-Outside work: building [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://github.com/chiruu12/Unplug) (LLM defense), and [Mutter](https://github.com/chiruu12/Mutter) (voice assistant). All local-first infrastructure. Contributing upstream to [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), and [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
+Outside work: building [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://www.unplug-ai.org/) (LLM defense), and [Nudge](https://www.nudge-ai.org/) (voice capture). All local-first infrastructure. Contributing upstream to [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), and [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
 
 4th place at ContextCon (YC Hackathon). Winner, Smart India Hackathon 2025. Top 20, Meta Hacker Cup AI round.
 
@@ -48,8 +50,20 @@ patterns    multi-agent orchestration, RAG, MCP servers, CLI tools
 ```diff
 + Hive       shipping the agent OS runtime
 + Unplug     ML classifier stage for prompt injection detection
-+ Mutter     WhatsApp/Telegram delivery for captured notes
++ Nudge      metered cloud backend for the voice capture app
 + OSS        weekly contributions to Agno, Keras, and others
+```
+
+</details>
+
+<details>
+<summary><kbd>$ cat personal.txt</kbd></summary>
+<br>
+
+```
+food        certified enthusiast. i mean it. fr.
+poetry      i write poems
+building    love making things (breaking them is half the fun)
 ```
 
 </details>
