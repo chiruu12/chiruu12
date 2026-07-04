@@ -24,7 +24,7 @@
 
 AI engineer at a US startup building a multi-agent ideation platform (group chat orchestration, containerized code execution, skills system, model tiering). GSoC '25 contributor and '26 mentor at Jenkins. Final year at BITS Pilani doing a dual degree in Mathematics and Electronics.
 
-Outside work: building [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://www.unplug-ai.org/) (LLM defense), and [Nudge](https://www.nudge-ai.org/) (voice capture). All local-first infrastructure. Contributing upstream to [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), and [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
+Outside work: building [Marshal](https://github.com/chiruu12/marshal) (coding-agent fleet orchestration), [Hive](https://github.com/chiruu12/Hive) (agent OS), [Unplug](https://www.unplug-ai.org/) (LLM defense), and [Nudge](https://www.nudge-ai.org/) (voice capture). All local-first infrastructure. Merged PRs upstream in [Keras](https://github.com/keras-team/keras/pulls?q=author%3Achiruu12), [Agno](https://github.com/agno-agi/agno/pulls?q=author%3Achiruu12), and [Rago](https://github.com/osl-incubator/rago/pulls?q=author%3Achiruu12).
 
 4th place at ContextCon (YC Hackathon). Winner, Smart India Hackathon 2025. Top 20, Meta Hacker Cup AI round.
 
@@ -48,10 +48,10 @@ patterns    multi-agent orchestration, RAG, MCP servers, CLI tools
 <br>
 
 ```diff
++ Marshal    orchestrating fleets of headless coding agents
 + Hive       shipping the agent OS runtime
 + Unplug     ML classifier stage for prompt injection detection
 + Nudge      metered cloud backend for the voice capture app
-+ OSS        weekly contributions to Agno, Keras, and others
 ```
 
 </details>
