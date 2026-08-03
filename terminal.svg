@@ -58,19 +58,18 @@
     <text x="20" y="272" fill="#b5e853">  </text>
     <text x="35.6" y="272" fill="#c9d1d9">OSS-Skills        </text>
     <text x="176.0" y="272" fill="#4a7c59">15 AI coding skills for OSS contributors</text>
-    <text x="780" y="272" fill="#ffd700" text-anchor="end">★ 55</text>
+    <text x="780" y="272" fill="#ffd700" text-anchor="end">★ 56</text>
   </g>
   <g class="line" style="animation-delay: 2.36s">
     <text x="20" y="294" fill="#b5e853">  </text>
     <text x="35.6" y="294" fill="#c9d1d9">DevCard           </text>
     <text x="176.0" y="294" fill="#4a7c59">dev identity cards from GitHub. on PyPI</text>
-    <text x="780" y="294" fill="#ffd700" text-anchor="end">★ 4</text>
+    <text x="780" y="294" fill="#ffd700" text-anchor="end">★ 3</text>
   </g>
   <g class="line" style="animation-delay: 2.44s">
     <text x="20" y="316" fill="#b5e853">  </text>
     <text x="35.6" y="316" fill="#c9d1d9">NexNet            </text>
     <text x="176.0" y="316" fill="#4a7c59">neural nets from scratch in NumPy. BERT, GPT</text>
-    <text x="780" y="316" fill="#ffd700" text-anchor="end">★ 1</text>
   </g>
   <g class="line" style="animation-delay: 2.52s">
     <text x="20" y="338" fill="#b5e853">  </text>
