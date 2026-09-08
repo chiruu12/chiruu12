@@ -3,6 +3,7 @@
 
 import json
 import os
+import time
 import urllib.request
 import yaml
 
@@ -38,22 +39,38 @@ TITLE_BAR_H = 36
 WIDTH = 800
 
 
+class StarFetchError(RuntimeError):
+    """A repo's star count could not be read, as opposed to being zero."""
+
+
 def fetch_stars(repo: str) -> int:
+    """Star count for a repo. Retries, then raises rather than reporting 0.
+
+    A swallowed error used to render as no star badge at all, so one flaky
+    call quietly demoted a project on the profile card.
+    """
     if not GITHUB_TOKEN:
         return 0
-    try:
-        req = urllib.request.Request(
-            f"https://api.github.com/repos/{repo}",
-            headers={
-                "Authorization": f"token {GITHUB_TOKEN}",
-                "Accept": "application/vnd.github.v3+json",
-            },
-        )
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            data = json.loads(resp.read())
-            return data.get("stargazers_count", 0)
-    except Exception:
-        return 0
+
+    last_error = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}",
+                headers={
+                    "Authorization": f"token {GITHUB_TOKEN}",
+                    "Accept": "application/vnd.github.v3+json",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read())
+            return data["stargazers_count"]
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+
+    raise StarFetchError(f"{repo}: {last_error}")
 
 
 def escape(text: str) -> str:
@@ -136,12 +153,17 @@ def build_svg(config: dict) -> str:
     ], 0.3)
 
     for proj in config["building"]:
+        stars = fetch_stars(proj["repo"])
+        star_str = f"\u2605 {stars}" if stars > 0 else ""
         name_padded = proj["name"].ljust(18)
-        add_line([
+        parts = [
             ("  ", COLORS["fg"]),
             (name_padded, COLORS["white"]),
             (proj["desc"], COLORS["dim"]),
-        ])
+        ]
+        if star_str:
+            parts.append(("__STAR__" + star_str, COLORS["yellow"]))
+        add_line(parts)
 
     add_blank()
 

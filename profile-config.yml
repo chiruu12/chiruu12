@@ -13,26 +13,26 @@ shipped:
   - repo: chiruu12/OSS-Skills
     name: OSS-Skills
     desc: "15 AI coding skills for OSS contributors"
-  - repo: chiruu12/devcard
-    name: DevCard
-    desc: "dev identity cards from GitHub. on PyPI"
-  - repo: chiruu12/NexNet
-    name: NexNet
-    desc: "neural nets from scratch in NumPy. BERT, GPT"
+  - repo: UnplugAI/Unplug
+    name: Unplug
+    desc: "LLM defense SDK. injection, jailbreak, leakage"
   - repo: jenkinsci/domain-llm
     name: "GSoC @ Jenkins"
     desc: "multi-agent diagnostics for build failures"
+  - repo: chiruu12/devcard
+    name: DevCard
+    desc: "dev identity cards from GitHub. on PyPI"
 
 building:
+  - repo: chiruu12/marshal
+    name: Marshal
+    desc: "fleets of headless coding agents, one driver"
   - repo: chiruu12/Hive
     name: Hive
-    desc: "local-first agent OS. YAML agents, multi-model routing"
-  - repo: chiruu12/Unplug
-    name: Unplug
-    desc: "LLM defense SDK. injection, jailbreak, leakage"
-  - repo: chiruu12/nudge-server
+    desc: "local-first agent OS. YAML agents, multi-model"
+  - repo: chiruu12/nudge
     name: Nudge
-    desc: "voice capture. talk, captured, delivered. nudge-ai.org"
+    desc: "voice capture. talk, captured, delivered"
 
 upstream:
   - name: Keras
