@@ -38,7 +38,6 @@ $ pip install unplug-ai
 <table>
 <tr><td valign="top" nowrap><a href="https://github.com/chiruu12/OSS-Skills"><b>OSS-Skills</b></a></td><td valign="top">A first open source contribution as 15 executable skills, from picking an issue to surviving review. Runs anywhere that reads AGENTS.md.<br><a href="https://github.com/chiruu12/OSS-Skills"><kbd>repo</kbd></a> <a href="https://github.com/chiruu12/oss-skills-mcp"><kbd>mcp</kbd></a></td></tr>
 <tr><td valign="top" nowrap><a href="https://github.com/jenkinsci/domain-llm"><b>domain-llm</b></a></td><td valign="top">GSoC '25 at Jenkins. Multi-agent diagnostics that read a failed build and say why it broke.<br><a href="https://github.com/jenkinsci/domain-llm"><kbd>repo</kbd></a> <a href="https://github.com/jenkinsci/domain-llm/pulls?q=is%3Apr+author%3Achiruu12+is%3Amerged"><kbd>12 merged</kbd></a></td></tr>
-<tr><td valign="top" nowrap><a href="https://github.com/chiruu12/devcard"><b>DevCard</b></a></td><td valign="top">Developer identity cards from pure GitHub signals. A schema plus a CLI, no LLM in the loop.<br><a href="https://github.com/chiruu12/devcard"><kbd>repo</kbd></a> <a href="https://pypi.org/project/devcard/"><kbd>pypi</kbd></a></td></tr>
 </table>
 
 ### Building
@@ -69,7 +68,7 @@ AI engineer at a US startup building a multi-agent ideation platform: group chat
 
 Most of what I build is agent infrastructure that runs on your own machine. Unplug is the defense layer, Marshal drives fleets of coding agents, Hive is the runtime they live in. Open source by default.
 
-GSoC '25 contributor and '26 mentor at Jenkins. Final year at BITS Pilani, dual degree in Mathematics and Electronics.
+GSoC '25 contributor and '26 mentor at Jenkins. Dual degree in Mathematics and Electronics from BITS Pilani.
 
 Winner, Smart India Hackathon 2025. 4th place at ContextCon (YC Hackathon). Top 20, Meta Hacker Cup AI round.
 

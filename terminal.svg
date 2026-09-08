@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="574" viewBox="0 0 800 574">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="552" viewBox="0 0 800 552">
 <defs>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
     <rect width="4" height="2" fill="#0a0a0a"/>
@@ -12,7 +12,7 @@
   @keyframes blink { 0%,50% { opacity:1 } 51%,100% { opacity:0 } }
   .cursor { animation: blink 1s step-end infinite; }
 </style>
-<rect width="800" height="574" rx="8" fill="#0a0a0a"/>
+<rect width="800" height="552" rx="8" fill="#0a0a0a"/>
 <rect width="800" height="36" rx="8" fill="#1a1a1a"/>
 <rect y="28" width="800" height="8" fill="#1a1a1a"/>
 <circle cx="16" cy="18" r="6" fill="#ff5f56"/>
@@ -73,51 +73,46 @@
     <text x="780" y="316" fill="#ffd700" text-anchor="end">★ 9</text>
   </g>
   <g class="line" style="animation-delay: 2.52s">
-    <text x="20" y="338" fill="#b5e853">  </text>
-    <text x="35.6" y="338" fill="#c9d1d9">DevCard           </text>
-    <text x="176.0" y="338" fill="#4a7c59">dev identity cards from GitHub. on PyPI</text>
   </g>
-  <g class="line" style="animation-delay: 2.60s">
+  <g class="line" style="animation-delay: 2.56s">
+    <text x="20" y="360" fill="#7ee787">$ </text>
+    <text x="35.6" y="360" fill="#e6edf3">ls building/</text>
   </g>
-  <g class="line" style="animation-delay: 2.64s">
-    <text x="20" y="382" fill="#7ee787">$ </text>
-    <text x="35.6" y="382" fill="#e6edf3">ls building/</text>
+  <g class="line" style="animation-delay: 2.86s">
+    <text x="20" y="382" fill="#b5e853">  </text>
+    <text x="35.6" y="382" fill="#c9d1d9">Marshal           </text>
+    <text x="176.0" y="382" fill="#4a7c59">fleets of headless coding agents, one driver</text>
   </g>
   <g class="line" style="animation-delay: 2.94s">
     <text x="20" y="404" fill="#b5e853">  </text>
-    <text x="35.6" y="404" fill="#c9d1d9">Marshal           </text>
-    <text x="176.0" y="404" fill="#4a7c59">fleets of headless coding agents, one driver</text>
+    <text x="35.6" y="404" fill="#c9d1d9">Hive              </text>
+    <text x="176.0" y="404" fill="#4a7c59">local-first agent OS. YAML agents, multi-model</text>
   </g>
   <g class="line" style="animation-delay: 3.02s">
     <text x="20" y="426" fill="#b5e853">  </text>
-    <text x="35.6" y="426" fill="#c9d1d9">Hive              </text>
-    <text x="176.0" y="426" fill="#4a7c59">local-first agent OS. YAML agents, multi-model</text>
+    <text x="35.6" y="426" fill="#c9d1d9">Nudge             </text>
+    <text x="176.0" y="426" fill="#4a7c59">voice capture. talk, captured, delivered</text>
   </g>
   <g class="line" style="animation-delay: 3.10s">
-    <text x="20" y="448" fill="#b5e853">  </text>
-    <text x="35.6" y="448" fill="#c9d1d9">Nudge             </text>
-    <text x="176.0" y="448" fill="#4a7c59">voice capture. talk, captured, delivered</text>
   </g>
-  <g class="line" style="animation-delay: 3.18s">
+  <g class="line" style="animation-delay: 3.14s">
+    <text x="20" y="470" fill="#7ee787">$ </text>
+    <text x="35.6" y="470" fill="#e6edf3">git log --oneline upstream/</text>
   </g>
-  <g class="line" style="animation-delay: 3.22s">
-    <text x="20" y="492" fill="#7ee787">$ </text>
-    <text x="35.6" y="492" fill="#e6edf3">git log --oneline upstream/</text>
+  <g class="line" style="animation-delay: 3.44s">
+    <text x="20" y="492" fill="#4a7c59">  merged -&gt; </text>
+    <text x="113.6" y="492" fill="#58a6ff">Keras</text>
+    <text x="152.6" y="492" fill="#484f58"> · </text>
+    <text x="176.0" y="492" fill="#58a6ff">Agno</text>
+    <text x="207.2" y="492" fill="#484f58"> · </text>
+    <text x="230.6" y="492" fill="#58a6ff">Rago</text>
   </g>
-  <g class="line" style="animation-delay: 3.52s">
-    <text x="20" y="514" fill="#4a7c59">  merged -&gt; </text>
-    <text x="113.6" y="514" fill="#58a6ff">Keras</text>
-    <text x="152.6" y="514" fill="#484f58"> · </text>
-    <text x="176.0" y="514" fill="#58a6ff">Agno</text>
-    <text x="207.2" y="514" fill="#484f58"> · </text>
-    <text x="230.6" y="514" fill="#58a6ff">Rago</text>
+  <g class="line" style="animation-delay: 3.74s">
   </g>
-  <g class="line" style="animation-delay: 3.82s">
-  </g>
-  <g class="line" style="animation-delay: 3.86s">
-    <text x="20" y="558" fill="#7ee787" class="cursor">$ </text>
-    <text x="35.6" y="558" fill="#b5e853" class="cursor">█</text>
+  <g class="line" style="animation-delay: 3.78s">
+    <text x="20" y="536" fill="#7ee787" class="cursor">$ </text>
+    <text x="35.6" y="536" fill="#b5e853" class="cursor">█</text>
   </g>
 </g>
-<rect width="800" height="574" rx="8" fill="url(#scanlines)" opacity="0.2"/>
+<rect width="800" height="552" rx="8" fill="url(#scanlines)" opacity="0.2"/>
 </svg>

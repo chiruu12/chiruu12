@@ -19,10 +19,6 @@ shipped:
   - repo: jenkinsci/domain-llm
     name: "GSoC @ Jenkins"
     desc: "multi-agent diagnostics for build failures"
-  - repo: chiruu12/devcard
-    name: DevCard
-    desc: "dev identity cards from GitHub. on PyPI"
-    stars: false
 
 building:
   - repo: chiruu12/marshal
