@@ -46,7 +46,7 @@ $ pip install unplug-ai
 #### [Marshal](https://github.com/chiruu12/marshal)
 A fleet of headless coding agents from one seat. Isolated git worktrees, parallel runs, per-provider cost tracking, MCP and Skills as the interface.
 <a href="https://github.com/chiruu12/marshal"><kbd>repo</kbd></a>
-#### [Hive](https://github.com/chiruu12/Hive) <img src="https://img.shields.io/github/stars/chiruu12/Hive?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
+#### [Hive](https://github.com/chiruu12/Hive)
 Local-first agent OS. Persistent agents defined in YAML that collaborate, write code and use tools on their own. Multi-model routing.
 <a href="https://github.com/chiruu12/Hive"><kbd>repo</kbd></a>
 #### [Nudge](https://github.com/chiruu12/nudge)

@@ -32,6 +32,7 @@ building:
   - repo: chiruu12/Hive
     name: Hive
     desc: "local-first agent OS. YAML agents, multi-model"
+    stars: false
   - repo: chiruu12/nudge
     name: Nudge
     desc: "voice capture. talk, captured, delivered"
