@@ -20,18 +20,26 @@
 
 ### Shipped
 
-#### [Unplug](https://github.com/UnplugAI/Unplug) <img src="https://img.shields.io/pypi/v/unplug-ai?style=flat-square&labelColor=0d1117&color=58a6ff&logo=pypi&logoColor=white&label=%20" alt="" align="right"><img src="https://img.shields.io/github/stars/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
-LLM defense in one SDK. Prompt injection, jailbreaks, hallucination, data leakage, plus a PR scanner for agent and MCP config files.
-<a href="https://www.unplug-ai.org/"><kbd>site</kbd></a> <a href="https://github.com/UnplugAI/unplug-mcp"><kbd>mcp</kbd></a> <a href="https://github.com/UnplugAI/unplug-scan-action"><kbd>action</kbd></a>
-#### [OSS-Skills](https://github.com/chiruu12/OSS-Skills) <img src="https://img.shields.io/github/stars/chiruu12/OSS-Skills?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
-A first open source contribution as 15 executable skills, from picking an issue to surviving review. Runs anywhere that reads AGENTS.md.
-<a href="https://github.com/chiruu12/OSS-Skills"><kbd>repo</kbd></a> <a href="https://github.com/chiruu12/oss-skills-mcp"><kbd>mcp</kbd></a>
-#### [domain-llm](https://github.com/jenkinsci/domain-llm) <img src="https://img.shields.io/github/stars/jenkinsci/domain-llm?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
-GSoC '25 at Jenkins. Multi-agent diagnostics that read a failed build and say why it broke.
-<a href="https://github.com/jenkinsci/domain-llm"><kbd>repo</kbd></a> <a href="https://github.com/jenkinsci/domain-llm/pulls?q=is%3Apr+author%3Achiruu12+is%3Amerged"><kbd>12 merged</kbd></a>
-#### [DevCard](https://github.com/chiruu12/devcard) <img src="https://img.shields.io/pypi/v/devcard?style=flat-square&labelColor=0d1117&color=58a6ff&logo=pypi&logoColor=white&label=%20" alt="" align="right"><img src="https://img.shields.io/github/stars/chiruu12/devcard?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
-Developer identity cards built from pure GitHub signals. A schema plus a CLI, no LLM in the loop, so it stays cheap and deterministic.
-<a href="https://github.com/chiruu12/devcard"><kbd>repo</kbd></a> <a href="https://pypi.org/project/devcard/"><kbd>pypi</kbd></a>
+<h3>
+  <a href="https://github.com/UnplugAI/Unplug">Unplug</a>
+  &nbsp;<img src="https://img.shields.io/github/stars/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="stars"> <img src="https://img.shields.io/github/forks/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=4a7c59&logo=github&label=forks%20" alt="forks"> <img src="https://img.shields.io/pypi/v/unplug-ai?style=flat-square&labelColor=0d1117&color=58a6ff&logo=pypi&logoColor=white&label=%20" alt="pypi"> <img src="https://img.shields.io/github/license/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=484f58&label=%20" alt="license">
+</h3>
+
+**Every way an LLM breaks, and one SDK that stops it.**
+
+Prompt injection, jailbreaks, data leakage, hallucination. Drops into an app, an agent, or CI: the PR scanner reads your agent and MCP config files before they ship.
+
+```console
+$ pip install unplug-ai
+```
+
+<a href="https://github.com/UnplugAI/Unplug"><kbd>sdk</kbd></a> <a href="https://github.com/UnplugAI/unplug-mcp"><kbd>mcp server</kbd></a> <a href="https://github.com/UnplugAI/unplug-scan-action"><kbd>pr scanner</kbd></a> <a href="https://www.unplug-ai.org/"><kbd>site</kbd></a>
+
+<table>
+<tr><td valign="top" nowrap><a href="https://github.com/chiruu12/OSS-Skills"><b>OSS-Skills</b></a><br><img src="https://img.shields.io/github/stars/chiruu12/OSS-Skills?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt=""></td><td valign="top">A first open source contribution as 15 executable skills, from picking an issue to surviving review. Runs anywhere that reads AGENTS.md.<br><a href="https://github.com/chiruu12/OSS-Skills"><kbd>repo</kbd></a> <a href="https://github.com/chiruu12/oss-skills-mcp"><kbd>mcp</kbd></a></td></tr>
+<tr><td valign="top" nowrap><a href="https://github.com/jenkinsci/domain-llm"><b>domain-llm</b></a><br><img src="https://img.shields.io/github/stars/jenkinsci/domain-llm?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt=""></td><td valign="top">GSoC '25 at Jenkins. Multi-agent diagnostics that read a failed build and say why it broke.<br><a href="https://github.com/jenkinsci/domain-llm"><kbd>repo</kbd></a> <a href="https://github.com/jenkinsci/domain-llm/pulls?q=is%3Apr+author%3Achiruu12+is%3Amerged"><kbd>12 merged</kbd></a></td></tr>
+<tr><td valign="top" nowrap><a href="https://github.com/chiruu12/devcard"><b>DevCard</b></a><br><img src="https://img.shields.io/github/stars/chiruu12/devcard?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt=""></td><td valign="top">Developer identity cards from pure GitHub signals. A schema plus a CLI, no LLM in the loop.<br><a href="https://github.com/chiruu12/devcard"><kbd>repo</kbd></a> <a href="https://pypi.org/project/devcard/"><kbd>pypi</kbd></a></td></tr>
+</table>
 
 ### Building
 
