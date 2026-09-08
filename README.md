@@ -22,7 +22,7 @@
 
 <h3>
   <a href="https://github.com/UnplugAI/Unplug">Unplug</a>
-  &nbsp;<img src="https://img.shields.io/github/stars/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="stars"> <img src="https://img.shields.io/github/forks/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=4a7c59&logo=github&label=forks%20" alt="forks"> <img src="https://img.shields.io/pypi/v/unplug-ai?style=flat-square&labelColor=0d1117&color=58a6ff&logo=pypi&logoColor=white&label=%20" alt="pypi"> <img src="https://img.shields.io/github/license/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=484f58&label=%20" alt="license">
+  &nbsp;<a href="https://github.com/UnplugAI/Unplug"><img src="https://img.shields.io/github/stars/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="stars"></a> <a href="https://github.com/UnplugAI/Unplug/forks"><img src="https://img.shields.io/github/forks/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=4a7c59&logo=github&label=forks%20" alt="forks"></a> <a href="https://pypi.org/project/unplug-ai/"><img src="https://img.shields.io/pypi/v/unplug-ai?style=flat-square&labelColor=0d1117&color=58a6ff&logo=pypi&logoColor=white&label=%20" alt="pypi"></a> <a href="https://github.com/UnplugAI/Unplug/blob/HEAD/LICENSE"><img src="https://img.shields.io/github/license/UnplugAI/Unplug?style=flat-square&labelColor=0d1117&color=484f58&label=%20" alt="license"></a>
 </h3>
 
 **Every way an LLM breaks, and one SDK that stops it.**
