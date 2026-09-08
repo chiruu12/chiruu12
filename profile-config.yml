@@ -35,6 +35,7 @@ building:
   - repo: chiruu12/nudge
     name: Nudge
     desc: "voice capture. talk, captured, delivered"
+    stars: false
 
 upstream:
   - name: Keras

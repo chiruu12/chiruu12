@@ -49,7 +49,7 @@ A fleet of headless coding agents from one seat. Isolated git worktrees, paralle
 #### [Hive](https://github.com/chiruu12/Hive) <img src="https://img.shields.io/github/stars/chiruu12/Hive?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
 Local-first agent OS. Persistent agents defined in YAML that collaborate, write code and use tools on their own. Multi-model routing.
 <a href="https://github.com/chiruu12/Hive"><kbd>repo</kbd></a>
-#### [Nudge](https://github.com/chiruu12/nudge) <img src="https://img.shields.io/github/stars/chiruu12/nudge?style=flat-square&labelColor=0d1117&color=b5e853&logo=github&label=%20" alt="" align="right">
+#### [Nudge](https://github.com/chiruu12/nudge)
 Voice capture that gets out of the way. Talk, captured, delivered.
 <a href="https://www.nudge-ai.org/"><kbd>site</kbd></a> <a href="https://github.com/chiruu12/nudge"><kbd>repo</kbd></a>
 
