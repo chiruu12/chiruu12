@@ -132,7 +132,7 @@ def build_svg(config: dict) -> str:
     ], 0.3)
 
     for proj in config["shipped"]:
-        stars = fetch_stars(proj["repo"])
+        stars = fetch_stars(proj["repo"]) if proj.get("stars", True) else 0
         star_str = f"★ {stars}" if stars > 0 else ""
         name_padded = proj["name"].ljust(18)
         parts = [
@@ -153,8 +153,8 @@ def build_svg(config: dict) -> str:
     ], 0.3)
 
     for proj in config["building"]:
-        stars = fetch_stars(proj["repo"])
-        star_str = f"\u2605 {stars}" if stars > 0 else ""
+        stars = fetch_stars(proj["repo"]) if proj.get("stars", True) else 0
+        star_str = f"★ {stars}" if stars > 0 else ""
         name_padded = proj["name"].ljust(18)
         parts = [
             ("  ", COLORS["fg"]),
